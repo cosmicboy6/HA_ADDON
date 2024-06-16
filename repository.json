@@ -1,5 +1,5 @@
 {
-  "name": "bvlaicu add-ons for Hassio",
-  "url": "https://github.com/bvlaicu/home-assistant-addons",
-  "maintainer": "bvlaicu"
+  "name": "Home Assistant add-ons",
+  "url": "https://github.com/cosmicboy6/HA_ADDON",
+  "maintainer": "cosmicboy6"
 }
