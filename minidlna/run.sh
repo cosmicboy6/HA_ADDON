@@ -18,6 +18,8 @@ for VAR in $(echo "${ENVVARS}"); do
         echo "${minidlna_name}=${minidlna_value}" >> /etc/minidlna.conf
 done
 
-service minidlna force-reload
+#service minidlna force-reload
+service minidlna restart
+
 
 tail -f /dev/null
