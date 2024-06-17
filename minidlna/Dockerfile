@@ -8,7 +8,7 @@ RUN chmod a+x /run.sh
 ENTRYPOINT ["/run.sh"]
 
 # #ENTRYPOINT service minidlna force-reload && exec tail -f /dev/null
-#ENTRYPOINT service minidlna force-restart && exec tail -f /dev/null
+ENTRYPOINT service minidlna force-restart && exec tail -f /dev/null
 
 
 # Labels
