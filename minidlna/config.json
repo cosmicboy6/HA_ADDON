@@ -27,7 +27,7 @@
       },
       {
         "name": "MINIDLNA_media_dir",
-        "value": "/media/MP3"
+        "value": "A,/media/MP3"
       }
     ]
   },
