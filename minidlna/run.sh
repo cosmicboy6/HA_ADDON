@@ -20,6 +20,4 @@ done
 
 service minidlna force-reload
 
-
-
 tail -f /dev/null
