@@ -1,6 +1,6 @@
 {
   "name": "MiniDLNA",
-  "version": "0.1.2",
+  "version": "0.1.16",
   "slug": "minidlna",
   "description": "RedyMedia MiniDLNA daemon serves media files (music, pictures, and video) to clients on a network",
   "url": "https://https://github.com/cosmicboy6/HA_ADDON/tree/master/minidlna",
@@ -15,7 +15,7 @@
   "homeassistant_api": false,
   "host_network": true,
   "options": {
-    "log_level": "debug",
+    "log_level": "info",
     "envvars": [
       {
         "name": "MINIDLNA_log_level",
@@ -23,11 +23,11 @@
       },
       {
         "name": "MINIDLNA_friendly_name",
-        "value": "HA_MP3"
-      }, 
+        "value": "Photos"
+      },
       {
         "name": "MINIDLNA_media_dir",
-        "value": "/media/MP3"
+        "value": "/share/NAS/Photo"
       }
     ]
   },
@@ -41,4 +41,3 @@
     ]
   }
 }
-
