@@ -28,6 +28,10 @@
       {
         "name": "MINIDLNA_media_dir",
         "value": "/media/MP3"
+      },  
+      {
+        "name": "MINIDLNA_media_dir",
+        "value": "/share/music"
       }
     ]
   },
