@@ -15,7 +15,7 @@
   "homeassistant_api": false,
   "host_network": true,
   "options": {
-    "log_level": "info",
+    "log_level": "debug",
     "envvars": [
       {
         "name": "MINIDLNA_log_level",
